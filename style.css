@@ -1,0 +1,64 @@
+body {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(87, 108, 117, 1) 0%, rgba(37, 50, 55, 1) 100.2%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calc
+{
+    border: 1px solid white;
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+table {
+    border: none;
+}
+
+input[type="button"],
+button {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition: all ease 0.3s;
+}
+
+input[type="button"]:hover,
+button:hover {
+    box-shadow: 0px 0px 5px white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input[type="button"]:active
+{
+    box-shadow: none;
+}
+
+input[type="button"]:focus {
+    outline:none;
+}
+
+#result {
+    background: white;
+    font-size: 2em;
+    margin: 2px;
+    line-height: 100px;
+    padding: 0 20px;
+    height: 100px;
+    width: 268px;
+}
+
+#copy:active {
+    color: black;
+    background: white;
+}
